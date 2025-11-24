@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ANJU YADUVANSHI - Programmer & Web Developer Portfolio</title>
+    <!-- Task 1.4: Favicon Link -->
+    <link rel="icon" type="image/png" href="https://placehold.co/32x32/4CAF50/1A202C?text=VS">
+
+    <!-- Task 1.1: Font Link (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for social media icons and chat button -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Task 1.2: Fixed Nav Bar -->
+    <header id="navbar">
+        <div class="container">
+            <!-- Logo with Initials and Icon -->
+            <div class="logo">
+                <a href="#hero">
+                 <i class="fas fa-code"></i></a> 
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#github-stats">GitHub</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Task 3.3: Resume link in Navbar (Opens new tab) -->
+                <li><a href="Anju NN CV.pdf" target="_blank" class="resume-nav-btn">Resume</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger-menu" aria-label="Toggle navigation">&#9776;</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Task 1.3: Hero Section (Minimal) with Entrance Animation -->
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <div class="text-area">
+                    <h1>ANJU YADUVANSHI</h1>
+                    <p class="role-title">Programmer • Front-End-Developer</p>
+                    <!-- Task 3.3: Downloadable Resume button -->
+                    <div class="cta-buttons">
+                        <!-- File name format: Firstname-Lastname-Resume.pdf -->
+                        <a href="Anju NN CV.pdf" download="Anju-Resume"
+                            class="btn primary-btn">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. New Dedicated About Me Section (My Story) -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+
+                <!-- NEW: Circular Image -->
+                <div class="about-photo-container">
+                    <!-- Placeholder for a professional photo/avatar -->
+                    <img src="./images/anjuji.jpg" alt="" class="about-photo">
+                </div>
+                  <h1>ANJU YADUVANSHI </h1>
+                <div class="story-content">
+                    <p>I'm a passionate Web Developer dedicated to crafting seamless and engaging digital experiences.
+                    My technical core is built upon mastery of HTML5, CSS3, and JavaScript (ES6+), with advanced
+                    proficience in front-end frameworks like React.
+                    She is skilled in architecting responsive layouts that guarantee optimal performance and
+                    accessibility across all screen sizes and devices.
+                    My background includes :- I have completed B.Tech (CSE) 🎓 at Rao Birender Singh State Institute of
+                    Engineering and Technology, Zainabad (Rewari). I have strong DSA (Data Structures and Algorithms) and problem-solving skills."
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Task 3.1: Tech Stack & Tools Section (MOVED UP) -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>🛠️ Technical Skills & Tools</h2>
+                <h3>Core Technologies (MERN & Beyond)</h3>
+                <div class="skills-grid core-tech">
+                    <!-- Icons with 3D effect -->
+                    <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/F06529/ffffff?text=HTML" alt="HTML Icon">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/2965F1/ffffff?text=CSS" alt="CSS Icon">
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/38B2AC/ffffff?text=Tailwind" alt="Tailwind CSS Icon">
+                        <p>Tailwind CSS</p>
+                    </div>
+                    <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/F0DB4F/000000?text=JS" alt="JavaScript Icon">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/61DAFB/000000?text=React" alt="React Icon">
+                        <p>React</p>
+                    </div>
+
+                    <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/8892BF/ffffff?text=Node" alt="Node.js Icon">
+                        <p>Node.js</p>
+                    </div>
+                    <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/47A248/ffffff?text=Mongo" alt="MongoDB Icon">
+                        <p>MongoDB</p>
+                    </div>
+
+                </div>
+                <!--  -->
+                <h3>Tools & Platforms</h3>
+                <div class="skills-grid tools-platforms">
+                    <!-- Icons with 3D effect -->
+
+                    <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/007ACC/ffffff?text=VS" alt="VS Code Icon">
+                        <p>VS Code</p>
+                    </div>
+                    <!-- <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/FF0077/ffffff?text=Figma" alt="Figma Icon">
+                        <p>Figma</p>
+                    </div> -->
+                    <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/F34F29/ffffff?text=Git" alt="Git Icon">
+                        <p>Git</p>
+                    </div>
+                    <div class="skill-item card-3d-effect">
+                        <img src="https://placehold.co/50x50/181717/ffffff?text=GitHub" alt="GitHub Icon">
+                        <p>GitHub</p>
+                    </div>
+
+
+
+
+                    <!--  -->
+                </div>
+
+              
+
+
+                </div>
+        </section>
+
+
+
+        <!-- 4. Task 2.1: Projects Section (MOVED DOWN) -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>🚀 Featured Projects</h2>
+                <div class="project-grid">
+
+                    <!-- PROJECT CARD 1:  Interactive Quiz Application -->
+                    <div class="project-card card-3d-effect">
+                        <img src="./images/QuizApp.png" alt="Interactive Quiz Application Cover" class="project-cover">
+                        <h3>Interactive Quiz Application</h3>
+                        <p class="description">
+                            This project is designed to give you practical experience with JavaScript, DOM manipulation,
+                            and front-end design.Completing this project will strengthen your skills in building
+                            interactive and user-friendly applications.
+                        </p>
+                        <div class="tech-stacks">
+                            <span class="stack-item">HTML5</span>
+                            <span class="stack-item">Tailwind CSS</span>
+                            <span class="stack-item">JavaScript</span>
+                            <span class="stack-item">BootStrap</span>
+                            <span class="stack-item">Stripe API</span>
+                        </div>
+                        <div class="card-buttons">
+                            <!-- Task 2.2: Linked Buttons -->
+                            <a href="https://github.com/Iamanjuyadav/Interactive-_Quiz_-Application" target="_blank"
+                                class="btn github-btn">GitHub</a>
+                            <a href="https://iamanjuyadav.github.io/Interactive-_Quiz_-Application/" target="_blank"
+                                class="btn deploy-btn primary-btn">Live Demo</a>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT CARD 2: Real-Time Chat (Node/Socket Focus) -->
+                    <div class="project-card card-3d-effect">
+                        <img src="./images/preview .jpeg" alt="Weather-App Cover" class="project-cover">
+                        <h3>Weather-App</h3>
+                        <p class="description">
+                            Weather-App · It provides real-time weather updates, forecasts, and
+                            climate data for diﬀerent locations. · Display temperature, humidity, wind speed,
+                            and precipitation. · Warnings for storms, heatwaves, or heavy rain. Technologies
+                            Used: HTML5, CSS3, JavaScript, OpenWeatherMap API ,Weather API.
+                        </p>
+                        <div class="tech-stacks">
+                            <span class="stack-item">HTML5</span>
+                            <span class="stack-item">Tailwind CSS</span>
+                            <span class="stack-item">JavaScript</span>
+                            <!-- <span class="stack-item">BootStrap</span> -->
+                            <span class="stack-item">OpenWeatherMap API</span>
+                        </div>
+                        <div class="card-buttons">
+                            <!-- Task 2.2: Linked Buttons -->
+                            <a href="https://github.com/Iamanjuyadav/Weather-App" target="_blank"
+                                class="btn github-btn">GitHub</a>
+                            <a href="https://iamanjuyadav.github.io/Weather-App/" target="_blank"
+                                class="btn deploy-btn primary-btn">LiveDemo</a>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT CARD 3: Task Management Dashboard (Frontend Focus) -->
+                    <div class="project-card card-3d-effect">
+                        <img src="./images/image.png" alt="Task Dashboard Cover" class="project-cover">
+                        <h3>Responsive-Food-And-Restaurant-Website-Using-Bootstrap-5_Project</h3>
+                        <p class="description">
+                            It is a modern, mobile-friendly website designed to promote restaurants online. It uses
+                            HTML5
+                            and CSS3 for clean structure and styling, while Bootstrap 5 ensures responsive
+                            design across all screen sizes.
+                        </p>
+                        <div class="tech-stacks">
+                            <span class="stack-item">Html5 & Css3</span>
+                            <span class="stack-item">Tailwind CSS</span>
+                            <span class="stack-item">BootStrap</span>
+                        </div>
+                        <div class="card-buttons">
+                            <!-- Task 2.2: Linked Buttons -->
+                            <a href="https://github.com/Iamanjuyadav/Responsive-Food-And-Restaurant-Website"
+                                target="_blank" class="btn github-btn">GitHub</a>
+                            <a href=" https://iamanjuyadav.github.io/Responsive-Food-And-Restaurant-Website/"
+                                target="_blank" class="btn deploy-btn primary-btn">Live Demo</a>
+                        </div>
+                    </div>
+
+
+
+                    <!-- PROJECT CARD 5: Placeholder to fill the grid -->
+                    <!-- <div class="project-card card-3d-effect">
+                        <img src="https://placehold.co/400x200/A0AEC0/1A202C?text=Project+5+Educational+Tool"
+                            alt="Educational Tool Cover" class="project-cover">
+                        <h3>📚 Educational Platform</h3>
+                        <p class="description">
+                            A dynamic learning management system featuring progress tracking, gamified quizzes, and a
+                            customizable curriculum builder for students and instructors.
+                        </p>
+                        <div class="tech-stacks">
+                            <span class="stack-item">React Router</span>
+                            <span class="stack-item">MongoDB</span>
+                            <span class="stack-item">Styled Components</span>
+                            <span class="stack-item">Authentication</span>
+                        </div>
+                        <div class="card-buttons">
+                            <a href="https://github.com/AlexDev/LMS-repo" target="_blank"
+                                class="btn github-btn">GitHub</a>
+                            <a href="https://live-lms-platform.netlify.app" target="_blank"
+                                class="btn deploy-btn primary-btn">Live Demo</a>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Task 2.3: GitHub Stats Section -->
+        <section id="github-stats" class="github-stats-section">
+            <div class="container">
+                <h2>📈 GitHub Activity & Contributions</h2>
+
+                <div class="stats-grid">
+                    <div class="github-stats">
+                        <!-- Placeholder for GitHub Stats Image. Replace 'Anju' -->
+                        <img src="https://github-readme-stats.vercel.app/api?username=ANJU&show_icons=true&theme=vue"
+                            alt="GitHub Stats" loading="lazy">
+                    </div>
+                    <div class="github-langs">
+                        <!-- Placeholder for GitHub Top Languages Image. Replace Anju -->
+                        <img src="./images/language_1.png"
+                            alt="Top Languages" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="github-calendar">
+                    <h3>Contribution Calendar</h3>
+                    <!-- Placeholder for GitHub Calendar. Replace 'AnjuDeveloper' -->
+                    <img src="./images/githubContributions.png"
+                        alt="GitHub Contribution Calendar" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Task 3.2: 3D Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>📞 Get In Touch</h2>
+
+                <div class="contact-card-3d">
+
+                    <div class="contact-avatar-col">
+                        <!-- 3D Cartoon Avatar Placeholder -->
+                        <div class="contact-avatar">
+                            <i class="fas fa-robot"></i> <!-- Using an icon to simulate a cartoon avatar -->
+                        </div>
+                        <p style="color: var(--primary-color);">Talk to my Dev Bot!</p>
+                    </div>
+
+                    <div class="contact-info-col">
+                        <p> Have a question, or just want to say hello? Drop us a line!</p>
+
+                        <div class="contact-details">
+                            <div class="detail-item">
+                                <h4>✉️ Email</h4>
+                                <a href="mailto:iamanjukanti@email.com">iamanjukanti@email.com</a>
+                            </div>
+                            <div class="detail-item">
+                                <h4>📍 Address:-</h4>
+                                <a>H.No. 123, Street Name, City, State, Pin Code</a>
+                            </div>
+                            <div class="detail-item">
+                                <h4>📞 Phone</h4>
+                                <a href="tel:+919518283928">+91 9518283928</a>
+                            </div>
+                        </div>
+                        <!--  -->
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/miss-anju-0524462a0/" target="_blank"
+                                aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Iamanjuyadav" target="_blank" aria-label="GitHub"><i
+                                    class="fab fa-github"></i></a>
+                            <!-- <a href="" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                            <a href="https://wa.me/9518283938" target="_blank" aria-label="WhatsApp"><i
+                                    class="fab fa-whatsapp"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ANJU YADUVANSHI. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <!-- Chat Widget (Floating Contact Form) -->
+    <div id="chat-button" onclick="toggleChat()">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <div id="chat-box">
+        <div class="chat-header">
+            Let's Chat!
+            <button onclick="toggleChat()">&times;</button>
+        </div>
+        <div class="chat-body">
+            <h4>Send me a message directly:</h4>
+            <p>I usually respond within 24 hours. Alternatively, feel free to use my contact details below.</p>
+            <form id="contact-chat-form" class="chat-form" onsubmit="handleChatSubmit(event)">
+                <input type="email" id="chat-email" placeholder="Your Email (required)" required>
+                <textarea id="chat-message-text" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+            <p id="chat-message" style="color: var(--primary-color); font-weight: 600;"></p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
