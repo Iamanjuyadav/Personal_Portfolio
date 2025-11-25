@@ -4,14 +4,13 @@ The portfolio is fully responsive, fast, and designed to highlight your professi
 
 # 🚀 Features
 
- ##
  1. Responsive Design
 
-Works smoothly on desktop, tablet, and mobile devices.
+   Works smoothly on desktop, tablet, and mobile devices.
 
-Uses modern CSS techniques like Flexbox/Grid for layout.
+   Uses modern CSS techniques like Flexbox/Grid for layout.
 
- ## 
+ 
  2. Projects Showcase:- Dedicated section for highlighting your best work. Each project contains:
 
   1.) Title
@@ -25,22 +24,16 @@ Uses modern CSS techniques like Flexbox/Grid for layout.
   5.) GitHub link
   
 
- ## 
- 4. About Me Section:- A professional introduction, Skills list, Education & experience (optional)
-##
-5. Contact Section:- Contact form (optional backend)
+3. About Me Section:- A professional introduction, Skills list, Education & experience (optional)
 
-Direct links to:- Email , GitHub , LinkedIn , Social platforms
+4. Contact Section:- Contact form (optional backend)  Direct links to:- Email , GitHub , LinkedIn , Social platforms
 
-##
-6. Smooth Animations :- Light animations for scrolling, loading, and hovering.
+5. Smooth Animations :- Light animations for scrolling, loading, and hovering.
    Uses CSS animations or libraries (e.g., AOS/GSAP).
+   
+7. Fast Performance :- Optimized images, Minified CSS/JS , Lightweight structure , SEO-friendly headings
 
- ##
- 7. Fast Performance :- Optimized images, Minified CSS/JS , Lightweight structure , SEO-friendly headings
-
-#
-🛠️ Tools & Technologies Used
+# 🛠️ Tools & Technologies Used
 ##
 Frontend
 1.) HTML5:- 	Structure of the web pages
