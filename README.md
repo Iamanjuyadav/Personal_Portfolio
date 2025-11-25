@@ -3,15 +3,9 @@ This is a Personal Portfolio Website built to showcase skills, projects, experie
 The portfolio is fully responsive, fast, and designed to highlight your professional profile.
 
 # 🚀 Features
+1. Responsive Design:- Works smoothly on desktop, tablet, and mobile devices. Uses modern CSS techniques like Flexbox/Grid for layout.
 
- 1. Responsive Design
-
-   Works smoothly on desktop, tablet, and mobile devices.
-
-   Uses modern CSS techniques like Flexbox/Grid for layout.
-
- 
- 2. Projects Showcase:- Dedicated section for highlighting your best work. Each project contains:
+2. Projects Showcase:- Dedicated section for highlighting your best work. Each project contains:
 
   1.) Title
 
@@ -34,13 +28,11 @@ The portfolio is fully responsive, fast, and designed to highlight your professi
 7. Fast Performance :- Optimized images, Minified CSS/JS , Lightweight structure , SEO-friendly headings
 
 # 🛠️ Tools & Technologies Used
-##
-Frontend
-1.) HTML5:- 	Structure of the web pages
-2.) CSS3:- 	Styling, layouts, animations
-3.) JavaScript (ES6+) :- 	Interactivity and dynamic behavior
+# Frontend:-
+1.) HTML5:- 	Structure of the web pages.</br>
+2.) CSS3:- 	Styling, layouts, animations.</br>
+3.) JavaScript (ES6+) :- 	Interactivity and dynamic behavior.</br>
 4.)TailwindCSS / Bootstrap:-  (optional)	Faster styling and components GSAP / AOS	Animation effects.
 
 # Version Control
-## 
 Tool	Purpose:-Git	Tracks code changes GitHub	Code hosting & portfolio deployment.
